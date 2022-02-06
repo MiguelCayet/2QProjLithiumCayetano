@@ -1,0 +1,266 @@
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: monospace;
+  display: flex;
+}
+
+ul {
+  background: darkorange;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  color: #fff;
+  background: darkorange;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover {
+  background: red;
+  cursor: pointer;
+}
+
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+.navbar{
+  	background: darkorange;
+  	list-style: none;
+  	margin: 0;
+  	padding-left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.nav-wrapper{
+    width: 95%;
+    height: 100%;
+    display: flex;
+}
+
+.logo{
+    height: 100%;
+}
+
+#title{
+	padding-right: 50px;
+	margin-right: 450px;
+}
+
+header {
+	  font-family: monospace;
+	  font-size: 30px;
+	  padding-top: 40px;
+}
+main {
+		display: flex;
+		float:  left;
+}
+#content-web {
+	padding: 20px 30px;
+	padding-bottom: 0px;
+}
+p {
+	width: 100%;
+}
+
+figure {
+	margin: auto;
+	padding: 20px 30px;
+}
+
+.candidates-summary{
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	float: left;
+}
+
+.candidates-summary-2{
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	float: left;
+	
+}
+
+#biography, #biography-2{
+	width: 100%;
+	float: left;
+}
+
+#candidate1, #candidate2, #candidate3, #candidate4, #candidate5, #candidate6, #candidate7{
+ 	padding: 20px 30px;
+	padding-top: 10px;
+}
+
+.candidate-name{
+	font-family: monospace;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+#content-body{
+	margin-top: 50px;
+	display: flex;
+	float: left;
+	border: 2px solid black;
+}
+
+/* side bar */
+	/* side bar container */
+#side-body {
+	background-color: white;
+	width: 25%;
+	float: left;
+	margin: 20px;
+	margin-right: 0;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 40px;
+}
+	/* profile heading */
+#profile-head {
+	text-align: left;
+	padding: 0 30px;
+	font-family: Arial;
+	font-size: 25px;
+}
+	/* hr after profile heading */
+#title-break {
+	margin: 0 15px;
+}
+	/* profile picture, username and name div */
+#profile-name {
+	background-color: darkorange;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+	/* profile picture */
+#profile-pic {
+	width: 180px;
+	border-radius: 100%;
+	margin: 20px 10px 0;
+}
+	/* name and username */
+#info-name {
+	margin-top: 0;
+}
+	/* username text */
+#username {
+	color: gray;
+	font-family: Arial;
+	text-align: center;
+	margin-bottom: 0;
+}
+	/* name text */
+#name {
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 0;
+	padding-bottom: 10px;
+}
+	/* hr after name and username */
+#profile-break {
+	margin: 0 30px;
+}
+	/* container for the bio head and text */
+#bio-div {
+	width: 85%;
+	margin-top: 10px;
+	float: left;
+}
+	/* bio head */
+#bio-head {
+	text-align: left;
+	margin: 0px 30px 5px;
+	font-family: Arial;
+}
+	/* body of the bio */
+.bio-text {
+	text-align: justify;
+	margin: 10px 30px;
+	font-family: "roboto";
+	font-size: 15px;
+}
+/* end of side bar */
+
+/* start of main body */
+	/* main body container */
+#main-body {
+	margin-top: 40px;
+	background-color: white;
+	margin-left: 20px;
+	float: right;
+	border-radius: 20px;
+	width: 70%;
+}
+
+#photos-head {
+	padding: 0px 20px;
+	font-family: Arial;
+}
+
+.photos-bio {
+	height: 200px;
+	width: auto;
+	float: left;
+	margin: 10px 0px 10px 20px;
+}
+
+.icon {
+  width: 70px;
+  height: auto;
+}
+
+#video-body {
+  font-family: Arial;
+  height: 200px;
+	width: auto;
+	float: left;
+	margin: 10px 0px 10px 20px;
+}
